@@ -1,8 +1,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define		pdir	CGI
 %define		pnam	Response
-Summary:	CGI-Response perl module
-Summary(pl):	Modu³ perla CGI-Response
+Summary:	CGI::Response perl module
+Summary(pl):	Modu³ perla CGI::Response
 Name:		perl-CGI-Response
 Version:	0.03
 Release:	8
@@ -15,10 +15,10 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-CGI-Response - Respond to CGI requests.
+CGI::Response - Respond to CGI requests.
 
 %description -l pl
-Modu³ perla CGI-Response.
+Modu³ perla CGI::Response.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}

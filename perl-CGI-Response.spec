@@ -24,7 +24,7 @@ Modu³ perla CGI::Response - odpowiadaj±cy na ¿±dania CGI.
 %setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
-perl Makefile.PL
+%{__perl} Makefile.PL
 %{__make}
 
 %install

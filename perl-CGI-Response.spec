@@ -9,7 +9,7 @@ Summary:	CGI::Response perl module
 Summary(pl):	Modu³ perla CGI::Response
 Name:		perl-CGI-Response
 Version:	0.03
-Release:	10
+Release:	11
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz

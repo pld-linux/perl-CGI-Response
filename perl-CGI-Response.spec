@@ -1,4 +1,4 @@
-%define		perl_sitelib	%(eval "`perl -V:installsitelib`"; echo $installsitelib)
+%include	/usr/lib/rpm/macros.perl
 Summary:	CGI-Response perl module
 Summary(pl):	Modu³ perla CGI-Response
 Name:		perl-CGI-Response
@@ -8,7 +8,8 @@ Copyright:	GPL
 Group:		Development/Languages/Perl
 Group(pl):	Programowanie/Jêzyki/Perl
 Source:		ftp://ftp.perl.org/pub/CPAN/modules/by-module/CGI/CGI-Response-%{version}.tar.gz
-BuildRequires:	perl >= 5.005_03-10
+BuildRequires:	rpm-perlprov
+BuildRequires:	perl >= 5.005_03-12
 %requires_eq	perl
 Requires:	%{perl_sitearch}
 BuildRoot:	/tmp/%{name}-%{version}-root
@@ -17,7 +18,7 @@ BuildRoot:	/tmp/%{name}-%{version}-root
 CGI-Response - Respond to CGI requests.
 
 %description -l pl
-Modu³ perla CGI-Response
+Modu³ perla CGI-Response.
 
 %prep
 %setup -q -n CGI-Response-%{version}

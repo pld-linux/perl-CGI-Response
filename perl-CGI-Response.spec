@@ -26,7 +26,7 @@ Modu³ perla CGI::Response - odpowiadaj±cy na ¿±dania CGI.
 
 %build
 %{__perl} Makefile.PL \
-	INSTALLDIRS=vendor 
+	INSTALLDIRS=vendor
 %{__make}
 
 %install

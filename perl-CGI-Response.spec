@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	CGI
-%define	pnam	Response
+%define		pdir	CGI
+%define		pnam	Response
 Summary:	CGI::Response - respond to CGI requests
 Summary(pl):	CGI::Response - odpowiadanie na zapytania CGI
 Name:		perl-CGI-Response

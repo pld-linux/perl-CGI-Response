@@ -6,7 +6,7 @@
 %define	pdir	CGI
 %define	pnam	Response
 Summary:	CGI::Response perl module
-Summary(pl):	Modu³ perla CGI::Response
+Summary(pl):	Modu³ Perla CGI::Response
 Name:		perl-CGI-Response
 Version:	0.03
 Release:	11
@@ -23,7 +23,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 CGI::Response - Respond to CGI requests.
 
 %description -l pl
-Modu³ perla CGI::Response - odpowiadaj±cy na ¿±dania CGI.
+Modu³ Perla CGI::Response - odpowiadaj±cy na ¿±dania CGI.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}

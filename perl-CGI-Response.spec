@@ -1,12 +1,11 @@
-%define	pdir	CGI
-%define	pnam	Response
 %include	/usr/lib/rpm/macros.perl
+%define		pdir	CGI
+%define		pnam	Response
 Summary:	CGI-Response perl module
 Summary(pl):	Modu³ perla CGI-Response
 Name:		perl-CGI-Response
 Version:	0.03
 Release:	8
-
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
@@ -22,7 +21,7 @@ CGI-Response - Respond to CGI requests.
 Modu³ perla CGI-Response.
 
 %prep
-%setup -q -n CGI-Response-%{version}
+%setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
 perl Makefile.PL

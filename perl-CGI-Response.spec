@@ -5,8 +5,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	CGI
 %define	pnam	Response
-Summary:	CGI::Response perl module
-Summary(pl):	Modu³ Perla CGI::Response
+Summary:	CGI::Response - respond to CGI requests
+Summary(pl):	CGI::Response - odpowiadanie na zapytania CGI
 Name:		perl-CGI-Response
 Version:	0.03
 Release:	11
@@ -20,10 +20,17 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-CGI::Response - Respond to CGI requests.
+CGI::Response is a Perl5 module for constructing responses to Common
+Gateway Interface (CGI) requests.  It is designed to be light-weight
+and efficient for the most common tasks, and also to provide access to
+all HTTP response features for more advanced CGI applications.
 
 %description -l pl
-Modu³ Perla CGI::Response - odpowiadaj±cy na ¿±dania CGI.
+CGI::Response jest modu³em Perla do konstruowania odpowiedzi na zapytania
+przez Common Gateway Interface (CGI).  Jest zaprojektowany tak, aby byæ
+lekkim i efektywnym w wiêkszo¶ci popularnych zadañ, a tak¿e umo¿liwiæ
+dostêp do wszystkicy cech odpowiedzi HTTP bardziej zaawansowanym
+aplikacjom CGI.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}

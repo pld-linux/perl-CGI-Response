@@ -6,7 +6,7 @@
 %define		pdir	CGI
 %define		pnam	Response
 Summary:	CGI::Response - respond to CGI requests
-Summary(pl):	CGI::Response - odpowiadanie na zapytania CGI
+Summary(pl.UTF-8):   CGI::Response - odpowiadanie na zapytania CGI
 Name:		perl-CGI-Response
 Version:	0.03
 Release:	11
@@ -25,11 +25,11 @@ Gateway Interface (CGI) requests.  It is designed to be light-weight
 and efficient for the most common tasks, and also to provide access to
 all HTTP response features for more advanced CGI applications.
 
-%description -l pl
-CGI::Response jest modu³em Perla do konstruowania odpowiedzi na zapytania
-przez Common Gateway Interface (CGI).  Jest zaprojektowany tak, aby byæ
-lekkim i efektywnym w wiêkszo¶ci popularnych zadañ, a tak¿e umo¿liwiæ
-dostêp do wszystkicy cech odpowiedzi HTTP bardziej zaawansowanym
+%description -l pl.UTF-8
+CGI::Response jest moduÅ‚em Perla do konstruowania odpowiedzi na zapytania
+przez Common Gateway Interface (CGI).  Jest zaprojektowany tak, aby byÄ‡
+lekkim i efektywnym w wiÄ™kszoÅ›ci popularnych zadaÅ„, a takÅ¼e umoÅ¼liwiÄ‡
+dostÄ™p do wszystkicy cech odpowiedzi HTTP bardziej zaawansowanym
 aplikacjom CGI.
 
 %prep

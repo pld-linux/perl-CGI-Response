@@ -9,7 +9,7 @@ Summary:	CGI::Response - respond to CGI requests
 Summary(pl.UTF-8):	CGI::Response - odpowiadanie na zapytania CGI
 Name:		perl-CGI-Response
 Version:	0.03
-Release:	11
+Release:	12
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz

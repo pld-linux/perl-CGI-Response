@@ -4,7 +4,6 @@
 
 %define		pdir	CGI
 %define		pnam	Response
-%include	/usr/lib/rpm/macros.perl
 Summary:	CGI::Response - respond to CGI requests
 Summary(pl.UTF-8):	CGI::Response - odpowiadanie na zapytania CGI
 Name:		perl-CGI-Response
